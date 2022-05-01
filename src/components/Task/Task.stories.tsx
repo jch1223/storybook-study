@@ -9,7 +9,6 @@ export default {
 const Template: ComponentStory<typeof Task> = (args) => <Task {...args} />;
 
 export const Default = Template.bind({});
-
 Default.args = {
   task: {
     id: "1",
