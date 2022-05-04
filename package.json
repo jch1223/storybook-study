@@ -11,6 +11,7 @@
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
     "commitizen": "^4.2.4",
+    "msw-storybook-addon": "^1.6.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
@@ -70,6 +71,7 @@
     "@storybook/testing-library": "^0.0.11",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.0",
+    "msw": "^0.39.2",
     "react-test-renderer": "^18.1.0",
     "webpack": "^5.72.0"
   },
@@ -77,5 +79,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
