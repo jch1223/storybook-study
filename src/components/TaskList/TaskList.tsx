@@ -20,7 +20,11 @@ export default function TaskList({
   };
 
   if (loading) {
-    return <div className="list-items">loading</div>;
+    return (
+      <div className="list-items" data-testid="loading">
+        loading
+      </div>
+    );
   }
 
   if (tasks.length === 0) {
